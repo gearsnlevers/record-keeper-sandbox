@@ -1,5 +1,5 @@
 # Written by the Record Keeper updater. Do not edit it by hand, except the channel, in a pull request.
 source: gearsnlevers/record-keeper
-version: v1.0.0
-commit: 0bde5298a861c63e722be73625c28b7eaf0c9c6d
+version: v1.1.0
+commit: bee60d07ba175ad97fa3190e2d2200ed412d37f4
 channel: stable
