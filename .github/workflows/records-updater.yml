@@ -60,5 +60,3 @@ jobs:
           if [ -n "$TARGET" ]; then args+=(--target "$TARGET"); fi
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           node .github/record-keeper/updater.mjs "${args[@]}"
-
-# Rehearsal: a local edit of a managed file, to be repaired by the updater (a pull request that restores the file of the release).
